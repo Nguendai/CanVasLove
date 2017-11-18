@@ -6,6 +6,17 @@
     -webkit-transform: translateZ(0)
 }
 .disabled,
+#arrow{
+	position: absolute;
+    z-index: 1000;
+    font-size: 23px;
+    top: 11px;
+    right: 16px;
+    background: #333;
+    padding: 9px;
+    font-weight: bold;
+    color: white;
+}
 .ft-overview .ft-page * {
     pointer-events: none
 }
